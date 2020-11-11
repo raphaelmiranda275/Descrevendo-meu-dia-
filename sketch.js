@@ -68,7 +68,7 @@ function keyPressed(){
    console.log(opcao);
  }
    
-  if(key=="ArrowDown" && y<300){
+  if(key=="ArrowDown" && y<250){
     y=y+38;
     opcao=opcao+1;
     console.log(opcao);
